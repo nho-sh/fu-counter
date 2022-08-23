@@ -1,0 +1,33 @@
+{
+  "name": "fu-counter",
+  "version": "1.0.0",
+  "description": "A simple function usage counter for performance profiling backend and frontend javascript.",
+  "exports": {
+    ".": {
+      "require": "./index.cjs",
+      "import": "./index.mjs"
+    }
+  },
+  "scripts": {
+    "lint": "npx eslint \"./**/*.js\"",
+    "lint-markdown": "npx markdownlint-cli ./**/*.md",
+    "testcjs": "node tests/index.cjs",
+    "testmjs": "node tests/index.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nho-sh/fu-counter.git"
+  },
+  "keywords": [
+    "performance",
+    "profiling",
+    "function",
+    "counter"
+  ],
+  "author": "nhosh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nho-sh/fu-counter/issues"
+  },
+  "homepage": "https://github.com/nho-sh/fu-counter#readme"
+}
