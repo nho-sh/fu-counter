@@ -1,11 +1,11 @@
+# `fu-counter` - Function usage counter
+
 ```txt
 █▀▀ █  █   █▀▀ █▀▀█ █  █ █▀▀▄ ▀▀█▀▀ █▀▀ █▀▀█
 █▀  █  █ - █   █  █ █  █ █  █   █   █▀  █▄▄▀
 ▀    ▀▀▀   ▀▀▀ ▀▀▀▀  ▀▀▀ ▀  ▀   ▀   ▀▀▀ ▀ ▀▀
            Function usage counter
 ```
-
-# Function Usage Counter - `fu-counter`
 
 Function usage counter is a small, basic call counter.
 It allows you to quickly throw some usage counters on functions,
