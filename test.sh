@@ -4,7 +4,7 @@ set -e
 
 echo
 echo "█▀▀ █  █   █▀▀ █▀▀█ █  █ █▀▀▄ ▀▀█▀▀ █▀▀ █▀▀█"
-echo "█▀  █  █   █   █  █ █  █ █  █   █   █▀  █▄▄▀"
+echo "█▀  █  █ - █   █  █ █  █ █  █   █   █▀  █▄▄▀"
 echo "▀    ▀▀▀   ▀▀▀ ▀▀▀▀  ▀▀▀ ▀  ▀   ▀   ▀▀▀ ▀ ▀▀"
 echo "           Function usage counter"
 echo

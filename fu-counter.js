@@ -20,7 +20,7 @@ const FuCounter = {
       }
 
       if (fuDebug) {
-        console.debug(`Wrapped ${name} with a fu counter`);
+        console.debug(`Wrapped ${name} with a fu-counter`);
       }
 
       // Initialize
@@ -55,7 +55,7 @@ const FuCounter = {
         ;
       });
       console.log(
-        fuName + ' (fu counter):\n'
+        fuName + ' (fu-counter):\n'
         + '  ' + summary
           .map((s) => `${s.count.toString().padStart(width)} ${s.name}`)
           .join('\n  ')
@@ -70,7 +70,7 @@ const FuCounter = {
     creator.stopWatch = () => {
       if (fuWatchInterval) {
         if (fuDebug) {
-          console.debug("Stopping fu watch");
+          console.debug("Stopping fu-counter watch");
         }
 
         clearInterval(fuWatchInterval);
@@ -81,7 +81,7 @@ const FuCounter = {
     if (fuPrintOnExit && typeof process === 'object') {
       process.on('exit', () => {
         if (fuDebug) {
-          console.debug("Printing fu counters on exit");
+          console.debug("Printing fu-counter on exit");
         }
         creator.print();
       });
@@ -89,7 +89,7 @@ const FuCounter = {
 
     if (fuWatch) {
       if (fuDebug) {
-        console.debug("Setting up fu watch");
+        console.debug("Setting up fu-counter watch");
       }
       fuWatchInterval = setInterval(creator.print, fuWatch);
     }

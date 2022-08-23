@@ -2,7 +2,7 @@
 
 ```txt
 █▀▀ █  █   █▀▀ █▀▀█ █  █ █▀▀▄ ▀▀█▀▀ █▀▀ █▀▀█
-█▀  █  █   █   █  █ █  █ █  █   █   █▀  █▄▄▀
+█▀  █  █ - █   █  █ █  █ █  █   █   █▀  █▄▄▀
 ▀    ▀▀▀   ▀▀▀ ▀▀▀▀  ▀▀▀ ▀  ▀   ▀   ▀▀▀ ▀ ▀▀
            Function usage counter
 ```
@@ -12,6 +12,11 @@ It allows you to quickly throw some usage counters on functions,
 give em names, and later, print out the counts.
 With these counts, you can find parts of the code that execute
 a lot (and find places for performance tuning?).
+
+- 100% Test coverage
+- No dependencies
+- `.mjs` and `.cjs` support
+- Browser compatible
 
 ## Reasoning
 
