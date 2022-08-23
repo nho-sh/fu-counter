@@ -1,11 +1,11 @@
-# Function Usage Counter - `fu-counter`
-
 ```txt
 █▀▀ █  █   █▀▀ █▀▀█ █  █ █▀▀▄ ▀▀█▀▀ █▀▀ █▀▀█
 █▀  █  █ - █   █  █ █  █ █  █   █   █▀  █▄▄▀
 ▀    ▀▀▀   ▀▀▀ ▀▀▀▀  ▀▀▀ ▀  ▀   ▀   ▀▀▀ ▀ ▀▀
            Function usage counter
 ```
+
+# Function Usage Counter - `fu-counter`
 
 Function usage counter is a small, basic call counter.
 It allows you to quickly throw some usage counters on functions,
@@ -20,8 +20,8 @@ a lot (and find places for performance tuning?).
 
 ## Reasoning
 
-Q: *"Hey, why don't you profile using the debugger? Much better!"*.
-A: Sure, but if your application runs an algorithm for a few minutes,
+**Q:** *"Hey, why don't you profile using the debugger? Much better!"*.  
+**A:** Sure, but if your application runs an algorithm for a few minutes,
    the debugger does not hold out, and crashes.
 
 ## Usage
