@@ -3,7 +3,7 @@ const assert = require('assert');
 // Emulate browser, part1
 global.window = {};
 
-const fuCounter = require('../index.cjs');
+const fuCounter = require('../index.js');
 
 // Assert browser initializes
 assert.ok(!!global.window.FuCounter, "FuCounter was not injected in the browser");

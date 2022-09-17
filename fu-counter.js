@@ -26,12 +26,12 @@ const FuCounter = {
       // Initialize
       fuStats[name] = fuStats[name] || 0;
 
-      return async function () {
+      return function () {
         const scope = this;
 
         fuStats[name]++;
 
-        return await fnc.apply(scope, arguments);
+        return fnc.apply(scope, arguments);
       };
     };
 
@@ -57,6 +57,7 @@ const FuCounter = {
       console.log(
         fuName + ' (fu-counter):\n'
         + '  ' + summary
+          .filter((s) => s.count > 0)
           .map((s) => `${s.count.toString().padStart(width)} ${s.name}`)
           .join('\n  ')
       );
